@@ -11,7 +11,7 @@
     <artifactId>project-modules</artifactId>
     <name>project-modules</name>
     <description>服务模块</description>
-
+    <packaging>pom</packaging>
 
     <modules>
         <module>project-modules-uac</module>
