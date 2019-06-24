@@ -8,17 +8,8 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>project-common</artifactId>
-    <name>project-common</name>
-    <description>公共类中心</description>
-    <packaging>pom</packaging>
-
-    <!-- 聚合模块-->
-    <modules>
-        <module>project-common-config</module>
-        <module>project-common-util</module>
-        <module>project-common-base</module>
-    </modules>
-
+    <artifactId>project-monitor</artifactId>
+    <name>project-monitor</name>
+    <description>微服务监控中心</description>
 
 </project>

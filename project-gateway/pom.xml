@@ -10,7 +10,7 @@
 
     <artifactId>project-gateway</artifactId>
     <name>project-gateway</name>
-    <description>网关</description>
+    <description>微服务网关中心</description>
 
 
 </project>

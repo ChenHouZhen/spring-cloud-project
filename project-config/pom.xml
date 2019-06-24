@@ -10,6 +10,6 @@
 
     <artifactId>project-config</artifactId>
     <name>project-config</name>
-    <description>分布式配置中心</description>
+    <description>微服务配置中心</description>
 
 </project>

@@ -22,6 +22,8 @@
         <module>project-config</module>
         <module>project-gateway</module>
         <module>project-zipkin</module>
+        <module>project-eureka</module>
+        <module>project-monitor</module>
         <module>project-modules</module>
         <module>project-modules-api</module>
     </modules>

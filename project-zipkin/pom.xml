@@ -10,7 +10,7 @@
 
     <artifactId>project-zipkin</artifactId>
     <name>project-zipkin</name>
-    <description>分布式实时数据追踪系统</description>
+    <description>微服务日志采集中心</description>
 
 
 </project>
