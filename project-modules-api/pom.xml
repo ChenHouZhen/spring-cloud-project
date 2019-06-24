@@ -12,5 +12,7 @@
     <name>project-modules-api</name>
     <description>Demo project for Spring Boot</description>
 
-
+    <modules>
+        <module>project-modules-uac-api</module>
+    </modules>
 </project>

@@ -4,18 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.chenhz</groupId>
-        <artifactId>spring-cloud-project</artifactId>
+        <artifactId>project-modules-api</artifactId>
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>project-modules</artifactId>
-    <name>project-modules</name>
-    <description>服务模块</description>
-
-
-    <modules>
-        <module>project-modules-uac</module>
-    </modules>
-
+    <artifactId>project-modules-uac-api</artifactId>
+    <name>project-modules-uac-api</name>
+    <description>用户服务中心API</description>
 
 </project>
