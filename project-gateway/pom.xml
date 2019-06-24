@@ -8,8 +8,9 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>project-config</artifactId>
-    <name>project-config</name>
-    <description>分布式配置中心</description>
+    <artifactId>project-gateway</artifactId>
+    <name>project-gateway</name>
+    <description>网关</description>
+
 
 </project>

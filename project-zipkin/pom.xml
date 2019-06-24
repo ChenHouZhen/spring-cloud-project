@@ -8,8 +8,9 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>project-config</artifactId>
-    <name>project-config</name>
-    <description>分布式配置中心</description>
+    <artifactId>project-zipkin</artifactId>
+    <name>project-zipkin</name>
+    <description>分布式实时数据追踪系统</description>
+
 
 </project>
