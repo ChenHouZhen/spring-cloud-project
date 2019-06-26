@@ -5,9 +5,9 @@ spring:
       #远程仓库的分支
       label: master
       uri:  http://localhost:8763/
-      name: gateway,common-eureka
+      name: modules-uac,common-eureka
       fail-fast: false
       username:
       password:
       #读取属性文件结尾
-      profile: pro
+      profile: dev

@@ -5,3 +5,5 @@ server:
 spring:
   profiles:
     active: @profileActive@
+  application:
+    name: @pom.artifactId@

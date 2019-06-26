@@ -14,7 +14,7 @@ eureka:
       defauleZone: http://${security.user.name}:${security.user.password}@${hrc.url}:${hrc.port}/eureka/
     registry-fetch-interval-seconds: 30
   instance:
-    hostname: @pom.artifactId@
+    hostname: ${spring.application.name}
     # 实例使用ip进行访问
 #    prefer-ip-address: true
     # 实例显示id

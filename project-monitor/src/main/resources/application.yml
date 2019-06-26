@@ -2,3 +2,8 @@
 server:
   port: 8764
 
+spring:
+  profiles:
+    active: @profileActive@
+  application:
+    name: @pom.artifactId@
