@@ -12,4 +12,18 @@
     <name>project-eureka</name>
     <description>微服务注册中心</description>
 
+    <dependencies>
+        <!-- eureka server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+
+        <!-- web -->
+        <!-- 这个包需不需要放在父级? -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 </project>

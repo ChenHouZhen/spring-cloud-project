@@ -14,6 +14,7 @@ package com.chenhz.uac.api.service;
 
 import com.chenhz.base.wrapper.Wrapper;
 import com.chenhz.uac.api.service.hystrix.UacUserTokenFeignApiHystrix;
+import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
 
@@ -22,7 +23,7 @@ import org.springframework.web.bind.annotation.PostMapping;
  *
  * @author paascloud.net @gmail.com
  */
-@FeignClient(value = "paascloud-provider-uac", configuration = OAuth2FeignAutoConfiguration.class, fallback = UacUserTokenFeignApiHystrix.class)
+@FeignClient(value = "paascloud-provider-uac",/* configuration = OAuth2FeignAutoConfiguration.class, */fallback = UacUserTokenFeignApiHystrix.class)
 public interface UacUserTokenFeignApi {
 
 	/**
