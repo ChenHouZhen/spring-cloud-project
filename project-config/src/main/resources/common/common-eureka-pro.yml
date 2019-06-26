@@ -1,0 +1,27 @@
+# SpringCloud 配置
+security:
+  user:
+    name: root
+    password: root
+
+hrc:
+  url: project-eureka
+  port: 8761
+
+eureka:
+  client:
+    service-url:
+      defauleZone: http://${security.user.name}:${security.user.password}@${hrc.url}:${hrc.port}/eureka/
+    registry-fetch-interval-seconds: 30
+  instance:
+    hostname: @pom.artifactId@
+    # 实例使用ip进行访问
+#    prefer-ip-address: true
+    # 实例显示id
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+    # 服务续约任务调用间隔时间，默认30秒
+    lease-renewal-interval-in-seconds: 2
+    # 服务失效时间，默认90秒
+    lease-expiration-duration-in-seconds: 5
+    # 状态页面和健康指标
+#    statusPageUrlPath: ${server.context-path}/swagger-ui.html

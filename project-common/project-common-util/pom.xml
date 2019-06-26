@@ -12,5 +12,8 @@
     <name>project-common-util</name>
     <description>公共工具包</description>
 
+    <dependencies>
 
+
+    </dependencies>
 </project>

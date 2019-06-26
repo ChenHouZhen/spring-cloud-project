@@ -1,7 +1,5 @@
-
 server:
-  port: 8080
-
+  port: 8763
 
 spring:
   profiles:
@@ -13,38 +11,11 @@ spring:
       server:
         git:
           uri: https://github.com/ChenHouZhen/spring-cloud-project.git
+#          å¦‚æœGitä»“åº“ä¸ºå…¬å¼€ä»“åº“ï¼Œå¯ä»¥ä¸å¡«å†™ç”¨æˆ·åå’Œå¯†ç ï¼Œå¦‚æœæ˜¯ç§æœ‰ä»“åº“éœ€è¦å¡«å†™
           username:
           password:
           search-paths: project-config/src/main/resources/**
-          default-label: ${spring.profiles.active}
-          basedir: project-config/src/main/resources/**
+          default-label: master
+#          basedir: project-config/src/main/resources/**
           clone-on-start: true
-
-# SpringCloudÅäÖÃ
-security:
-  user:
-    name: root
-    password: root
-
-hrc:
-  url: project-eureka
-  port: 8761
-
-eureka:
-  client:
-    service-url:
-      defauleZone: http://${security.user.name}:${security.user.password}@${hrc.url}:${hrc.port}/eureka/
-    # »º´æÇåµ¥Ã¿¸ô30Ãë¸úĞÂÒ»´Î
-    registry-fetch-interval-seconds: 30
-  instance:
-    hostname: @pom.artifactId@
-    # ÊµÀıÊ¹ÓÃip½øĞĞ·ÃÎÊ
-#    prefer-ip-address: true
-    # ÊµÀıÏÔÊ¾id
-    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
-    # ·şÎñĞøÔ¼ÈÎÎñµ÷ÓÃ¼ä¸ôÊ±¼ä£¬Ä¬ÈÏ30Ãë
-    lease-renewal-interval-in-seconds: 2
-    # ·şÎñÊ§Ğ§Ê±¼ä£¬Ä¬ÈÏ90Ãë
-    lease-expiration-duration-in-seconds: 5
-    #×´Ì¬Ò³ÃæºÍ½¡¿µÖ¸±ê
-#    statusPageUrlPath: ${server.context-path}/swagger-ui.html
+          force-pull: true
