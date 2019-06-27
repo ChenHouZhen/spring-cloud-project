@@ -13,7 +13,11 @@
     <description>公共工具包</description>
 
     <dependencies>
-
+        <!-- web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
     </dependencies>
 </project>

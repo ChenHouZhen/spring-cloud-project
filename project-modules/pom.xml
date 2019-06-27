@@ -38,5 +38,22 @@
         </dependency>
     </dependencies>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.chenhz</groupId>
+                <artifactId>project-common-base</artifactId>
+                <version>0.0.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.chenhz</groupId>
+                <artifactId>project-common-util</artifactId>
+                <version>0.0.1</version>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
 
 </project>

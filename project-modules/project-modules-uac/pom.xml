@@ -12,4 +12,15 @@
     <name>project-modules-uac</name>
     <description>用户服务中心</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.chenhz</groupId>
+            <artifactId>project-common-base</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.chenhz</groupId>
+            <artifactId>project-common-util</artifactId>
+        </dependency>
+    </dependencies>
 </project>

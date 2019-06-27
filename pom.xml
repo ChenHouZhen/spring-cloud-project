@@ -32,6 +32,7 @@
         <java.version>1.8</java.version>
         <fastjson.version>1.2.45</fastjson.version>
         <project.version>0.0.1</project.version>
+        <apache.io.version>1.3.2</apache.io.version>
     </properties>
 
     <dependencies>
@@ -59,6 +60,13 @@
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${apache.io.version}</version>
+        </dependency>
+
 
     </dependencies>
 
