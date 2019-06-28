@@ -1,0 +1,10 @@
+server:
+  port: 8766
+
+spring:
+  profiles:
+#    active: @profileActive@
+    active: dev
+  application:
+#    name: @pom.artifactId@
+    name: project-modules-uac

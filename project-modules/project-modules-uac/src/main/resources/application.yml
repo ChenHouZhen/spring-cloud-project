@@ -1,8 +1,0 @@
-server:
-  port: 8766
-
-spring:
-  profiles:
-    active: @profileActive@
-  application:
-    name: @pom.artifactId@

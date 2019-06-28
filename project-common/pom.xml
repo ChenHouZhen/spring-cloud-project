@@ -18,6 +18,7 @@
         <module>project-common-config</module>
         <module>project-common-util</module>
         <module>project-common-base</module>
+        <module>project-security-core</module>
     </modules>
 
     <dependencies>

@@ -12,7 +12,7 @@
 package com.chenhz.uac.api.service.hystrix;
 
 
-import com.chenhz.base.wrapper.Wrapper;
+import com.chenhz.common.base.wrapper.Wrapper;
 import com.chenhz.uac.api.service.UacUserTokenFeignApi;
 import org.springframework.stereotype.Component;
 
